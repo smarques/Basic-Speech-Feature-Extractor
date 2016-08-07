@@ -5,7 +5,7 @@ This is a Max/MSP implementation of basic vowel and concinant reconition using t
 
 To run open the maxproject file in Max MSP.
 
----Impletmentation---
+---Implementation---
 All externals are includes in the project, so just open the project in Max and connect it to wekinator.  This feature extractor uses a measure of symetry accross frequency bins (symetrical distributions in indicate noise or concinants), a standard deviation of spectrum bands (a larger stard dev will indicate noise as well) and 24 mel coeficents which do the majoraty of the identification.
 
 The max patch includes a simple noise gate to help reduce unwanted training data when a user is training the model.
